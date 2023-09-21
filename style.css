@@ -1,0 +1,27 @@
+.border{
+    display:flex;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    flex:1 1 10px;
+}
+.rowOne{
+    display: flex;
+    justify-content: stretch;
+}
+#null{
+    flex: 1 1 10px;
+}
+#comma{
+    flex: 1 1 5px;
+}
+
